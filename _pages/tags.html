@@ -1,0 +1,36 @@
+---
+layout: categories
+permalink: /categories/
+title: Tags
+search_exclude: true
+---
+
+{% if site.categories.size > 0 %}
+<h2>Contents</h2>
+
+  {% assign categories = "" | split:"" %}
+  {% for c in site.categories %}
+    {% assign categories = categories | push: c[0] %}
+  {% endfor %}
+  {% assign categories = categories | sort_natural %}
+
+  <ul>
+  {% for category in categories %}
+    <li><a href="#{{ category }}">{{ category }}</a></li>
+  {% endfor %}
+  </ul>
+
+  {% for category in categories %}
+      <h3 id ="{{ category }}"><i class="fas fa-tags category-tags-icon"></i></i> {{ category }}</h3>
+      <a name="{{ category | slugize }}"></a>
+      {% for post in site.categories[category] %}
+        {% if post.hide != true %}
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <article class="archive-item">
+          <p class="post-meta post-meta-title"><a class="page-meta" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>  • {{ post.date | date: date_format }}</p>
+        </article>
+        {% endif %}
+      {% endfor %}
+  {% endfor %}
+
+{% endif %}
