@@ -6,7 +6,7 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: Causal Inference and Machine Learning in Practice with EconML and CausalML
+title: EconML/CausalML KDD 2021 Lecture-Style Tutorial
 description: EconML/CausalML KDD 2021 Lecture-Style Tutorial
 github_username: causal-machine-learning
 # you can comment the below line out if your repo name is not different than your baseurl
