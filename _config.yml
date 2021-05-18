@@ -6,8 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: fastpages
-description: An easy to use blogging platform with support for Jupyter Notebooks.
+title: Causal Inference and Machine Learning in Practice with EconML and CausalML
+description: EconML/CausalML KDD 2021 Lecture-Style Tutorial
 github_username: causal-machine-learning
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "kdd2021-tutorial"
@@ -39,17 +39,17 @@ baseurl: "/kdd2021-tutorial" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter: fastdotai
-    github: fastai
+    twitter: CausalMachine
+    github: causal-machine-learning
 
 # Set this to true to get LaTeX math equation support
-use_math: 
+use_math: true
 
 # Set this to true to display the summary of your blog post under your title on the Home page.
 show_description: true
 
 # Set this to true to display image previews on home page, if they exist
-show_image: false
+show_image: true
 
 # Set this to true to turn on annotations with hypothes.is (https://web.hypothes.is/)
 annotations: false
