@@ -4,18 +4,18 @@ search_exclude: true
 image: images/logo.png
 ---
 
-# Causal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber
+# **Causal Inference and Machine Learning in Practice with EconML and CausalML**: Industrial Use Cases at Microsoft, TripAdvisor, Uber
 
-## Abstract
+## **Abstract**
 
-In recent years, both academic research and industry applications see an increased effort in using machine learning methods to measure granular causal effects and design optimal policies based on these causal estimates. Open source packages such as CausalML and EconML provide a unified interface for applied researchers and industry practitioners with a variety of machine learning methods for causal inference. The tutorial will cover the topics including conditional treatment effect estimators by meta-learners and tree-based algorithms, model validations and sensitivity analysis, optimization algorithms including policy leaner and cost optimization. In addition, the tutorial will demonstrate the production of these algorithms in industry use cases.
+In recent years, both academic research and industry applications see an increased effort in using machine learning methods to measure granular causal effects and design optimal policies based on these causal estimates. Open source packages such as [CausalML](https://github.com/uber/causalml) and [EconML](https://github.com/microsoft/econml) provide a unified interface for applied researchers and industry practitioners with a variety of machine learning methods for causal inference. The tutorial will cover the topics including conditional treatment effect estimators by meta-learners and tree-based algorithms, model validations and sensitivity analysis, optimization algorithms including policy leaner and cost optimization. In addition, the tutorial will demonstrate the production of these algorithms in industry use cases.
 
-## Target Audience and Prerequisites for the tutorial
+## **Target Audience and Prerequisites for the Tutorial**
 
 Anyone who is interested in causal inference and machine learning, especially economists/statisticians/data scientists who want to learn how to combine causal inference and machine learning with real industry use cases incorporated in large scaled machine learning systems at companies such as Microsoft, TripAdvisor and Uber.
 The tutorial assumes some basic knowledge in statistical methods, machine learning algorithms and the Python programming language.
 
-## Outline
+## **Outline**
 
 | **Title** | **Duration** | Slides | Code |
 |-----------|--------------|--------|------|
@@ -29,7 +29,7 @@ The tutorial assumes some basic knowledge in statistical methods, machine learni
 | Case Study #3: Customer Segmentation at TripAdvisor with Recommendation A/B Tests | 30 minutes | | |
 | Case Study #4: Long-Term Return-on-Investment at Microsoft via Short-Term Proxies | 30 minutes | | |
 
-## Presentation Abstracts
+## **Presentation Abstracts**
 
 ### Introduction to Causal Inference
 
@@ -60,7 +60,7 @@ We examine the scenario in which we wish to learn heterogeneous treatment effect
 In this case study, we talk about using observational data to measure the long term Return-on-Investment of some types of dollar value investments Microsoft gives to the enterprise customers. There are many challenges for this setting, for instance, we don't have enough period of data to identify a long term ROI, we should control the effect coming from the future investment and we are in a high dimensional data space. We then propose a surrogate based approach assuming the long-term effect is channeled through some short-term proxies and employ a dynamic adjustment to the surrogate model in order to get rid of the effect from future investment, finally apply double machine learning (DML) techniques to estimate the ROI. We apply this methodology to answer the questions like what is the average long-run ROI on each type of the investment? What types of customers have a higher ROI to a specific investment? And how different incentives impact the different solution areas. Finally we will showcase how you could use EconML to solve similar problems by only a few lines of code. 
 
 
-## Tutors
+## **Tutors**
 
 ### Presenters
 
@@ -81,7 +81,7 @@ In this case study, we talk about using observational data to measure the long t
 * Eleanor Dillon, Microsoft Research, EconML
 
 
-### References
+## **References**
 
 1. Künzel, Sören R., et al. "Metalearners for estimating heterogeneous treatment effects using machine learning." Proceedings of the national academy of sciences 116.10 (2019): 4156-4165. ([paper](https://www.pnas.org/content/pnas/116/10/4156.full.pdf))
 2. Chernozhukov, Victor, et al. "Double/debiased/neyman machine learning of treatment effects." American Economic Review 107.5 (2017): 261-65. ([paper](https://arxiv.org/pdf/1701.08687))
@@ -107,4 +107,4 @@ In this case study, we talk about using observational data to measure the long t
 22. Lewis, G., & Syrgkanis, V. (2020). Double/Debiased Machine Learning for Dynamic Treatment Effects. arXiv preprint arXiv:2002.07285. ([paper](https://arxiv.org/pdf/2002.07285.pdf))
 
 
-# Posts
+# Examples
