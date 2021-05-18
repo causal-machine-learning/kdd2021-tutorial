@@ -4,21 +4,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>fastpages | An easy to use blogging platform with support for Jupyter Notebooks.</title>
+<title>Causal Inference and Machine Learning in Practice with EconML and CausalML | EconML/CausalML KDD 2021 Lecture-Style Tutorial</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="fastpages" />
+<meta property="og:title" content="Causal Inference and Machine Learning in Practice with EconML and CausalML" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
-<meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<meta name="description" content="EconML/CausalML KDD 2021 Lecture-Style Tutorial" />
+<meta property="og:description" content="EconML/CausalML KDD 2021 Lecture-Style Tutorial" />
 <link rel="canonical" href="https://causal-machine-learning.github.io/kdd2021-tutorial/" />
 <meta property="og:url" content="https://causal-machine-learning.github.io/kdd2021-tutorial/" />
-<meta property="og:site_name" content="fastpages" />
+<meta property="og:site_name" content="Causal Inference and Machine Learning in Practice with EconML and CausalML" />
 <meta property="og:image" content="https://causal-machine-learning.github.io/kdd2021-tutorial/images/logo.png" />
 <script type="application/ld+json">
-{"description":"An easy to use blogging platform with support for Jupyter Notebooks.","url":"https://causal-machine-learning.github.io/kdd2021-tutorial/","@type":"WebSite","headline":"fastpages","image":"https://causal-machine-learning.github.io/kdd2021-tutorial/images/logo.png","name":"fastpages","@context":"https://schema.org"}</script>
+{"description":"EconML/CausalML KDD 2021 Lecture-Style Tutorial","url":"https://causal-machine-learning.github.io/kdd2021-tutorial/","@type":"WebSite","headline":"Causal Inference and Machine Learning in Practice with EconML and CausalML","image":"https://causal-machine-learning.github.io/kdd2021-tutorial/images/logo.png","name":"Causal Inference and Machine Learning in Practice with EconML and CausalML","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/kdd2021-tutorial/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://causal-machine-learning.github.io/kdd2021-tutorial/feed.xml" title="fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/kdd2021-tutorial/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="/kdd2021-tutorial/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://causal-machine-learning.github.io/kdd2021-tutorial/feed.xml" title="Causal Inference and Machine Learning in Practice with EconML and CausalML" /><link rel="shortcut icon" type="image/x-icon" href="/kdd2021-tutorial/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
 
 <script>
 function wrap_img(fn) {
@@ -52,7 +68,7 @@ window.onload = wrap_img;
 </head>
 <body><header class="site-header">
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/kdd2021-tutorial/">fastpages</a><nav class="site-nav">
+  <div class="wrapper"><a class="site-title" rel="author" href="/kdd2021-tutorial/">Causal Inference and Machine Learning in Practice with EconML and CausalML</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -62,7 +78,7 @@ window.onload = wrap_img;
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/kdd2021-tutorial/about/">About Me</a><a class="page-link" href="/kdd2021-tutorial/search/">Search</a><a class="page-link" href="/kdd2021-tutorial/categories/">Tags</a></div>
+        <div class="trigger"><a class="page-link" href="/kdd2021-tutorial/search/">Search</a><a class="page-link" href="/kdd2021-tutorial/categories/">Tags</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -81,46 +97,68 @@ The tutorial assumes some basic knowledge in statistical methods, machine learni
 <h2 id="outline">Outline</h2>
 
 <table>
+  <thead>
+    <tr>
+      <th><strong>Title</strong></th>
+      <th><strong>Duration</strong></th>
+      <th>Slides</th>
+      <th>Code</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-      <td>Title</td>
-      <td>Duration</td>
-    </tr>
-    <tr>
-      <td>Introduction to Causal Inference</td>
+      <td><strong>Introduction to Causal Inference</strong></td>
       <td>20 minutes</td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
-      <td>Case Studies Part 1 by CausalML</td>
+      <td><strong>Case Studies Part 1 by CausalML</strong></td>
+      <td> </td>
+      <td> </td>
       <td> </td>
     </tr>
     <tr>
       <td>Introduction to CausalML</td>
       <td>15 minutes</td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
       <td>Case Study #1: Causal Impact Analysis with Observational Data: CeViChE at Uber</td>
       <td>30 minutes</td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
       <td>Case Study #2: Targeting Optimization: Bidder at Uber</td>
       <td>30 minutes</td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
-      <td>Case Studies Part 2 by EconML</td>
+      <td><strong>Case Studies Part 2 by EconML</strong></td>
+      <td> </td>
+      <td> </td>
       <td> </td>
     </tr>
     <tr>
       <td>Introduction to EconML</td>
       <td>15 minutes</td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
       <td>Case Study #3: Customer Segmentation at TripAdvisor with Recommendation A/B Tests</td>
       <td>30 minutes</td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
       <td>Case Study #4: Long-Term Return-on-Investment at Microsoft via Short-Term Proxies</td>
       <td>30 minutes</td>
+      <td> </td>
+      <td> </td>
     </tr>
   </tbody>
 </table>
@@ -226,17 +264,27 @@ The tutorial assumes some basic knowledge in statistical methods, machine learni
 
    <!-- Assemble final sorted posts array -->
   
-  <ul class="post-list"><li><h3>
-    <a class="post-link" href="/kdd2021-tutorial/jupyter/2020/02/20/test.html">
-    Fastpages Notebook Blog Post
-    </a>
-</h3><p class="post-meta-description">A tutorial of fastpages for Jupyter notebooks.</p><p class="post-meta">Feb 20, 2020</p>
-</li><li><h3>
-    <a class="post-link" href="/kdd2021-tutorial/markdown/2020/01/14/test-markdown-post.html">
-    An Example Markdown Post
-    </a>
-</h3><p class="post-meta-description">A minimal example of using markdown with fastpages.</p><p class="post-meta">Jan 14, 2020</p>
-</li></ul>
+  <ul class="post-list"><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <img class="image-preview " src="/kdd2021-tutorial/images/chart-preview.png" />
+      </div><div class="col-8 d-table-cell p-3">
+        <h3>
+          <a class="post-link" href="/kdd2021-tutorial/jupyter/2020/02/20/test.html">
+            Fastpages Notebook Blog Post
+          </a>
+        </h3>
+        <p class="post-meta-description">A tutorial of fastpages for Jupyter notebooks.</p>
+          <p class="post-meta">Feb 20, 2020</p>
+      </div>
+  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
+        <h3>
+          <a class="post-link" href="/kdd2021-tutorial/markdown/2020/01/14/test-markdown-post.html">
+            An Example Markdown Post
+          </a>
+        </h3>
+        <p class="post-meta-description">A minimal example of using markdown with fastpages.</p>
+          <p class="post-meta">Jan 14, 2020</p>
+      </div>
+  </div></li></ul>
 
     </div>
       </div>
@@ -256,11 +304,11 @@ The tutorial assumes some basic knowledge in statistical methods, machine learni
         </p>
       </div>
       <div class="footer-col">
-        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+        <p>EconML/CausalML KDD 2021 Lecture-Style Tutorial</p>
       </div>
     </div>
 
-    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/fastai" title="fastai"><svg class="svg-icon grey"><use xlink:href="/kdd2021-tutorial/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/fastdotai" title="fastdotai"><svg class="svg-icon grey"><use xlink:href="/kdd2021-tutorial/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/causal-machine-learning" title="causal-machine-learning"><svg class="svg-icon grey"><use xlink:href="/kdd2021-tutorial/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/CausalMachine" title="CausalMachine"><svg class="svg-icon grey"><use xlink:href="/kdd2021-tutorial/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
 </div>
 
   </div>
