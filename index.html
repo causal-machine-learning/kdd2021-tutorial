@@ -67,13 +67,144 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><p>This site is built with <a href="https://github.com/fastai/fastpages">fastpages</a>, An easy to use blogging platform with extra features for Jupyter Notebooks.</p>
+        <div class="home"><h1 id="causal-inference-and-machine-learning-in-practice-with-econml-and-causalml-industrial-use-cases-at-microsoft-tripadvisor-uber">Causal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber</h1>
 
-<p><img src="/kdd2021-tutorial/images/diagram.png" alt="" title="https://github.com/fastai/fastpages" /></p>
+<h2 id="abstract">Abstract</h2>
 
-<p><a href="https://github.com/fastai/fastpages">fastpages</a> automates the process of creating blog posts via GitHub Actions, so you don’t have to fuss with conversion scripts.  A full list of features can be found on <a href="https://github.com/fastai/fastpages">GitHub</a>.</p>
+<p>In recent years, both academic research and industry applications see an increased effort in using machine learning methods to measure granular causal effects and design optimal policies based on these causal estimates. Open source packages such as CausalML and EconML provide a unified interface for applied researchers and industry practitioners with a variety of machine learning methods for causal inference. The tutorial will cover the topics including conditional treatment effect estimators by meta-learners and tree-based algorithms, model validations and sensitivity analysis, optimization algorithms including policy leaner and cost optimization. In addition, the tutorial will demonstrate the production of these algorithms in industry use cases.</p>
 
-<p>You can edit the <code class="language-plaintext highlighter-rouge">index.html</code> file to change this content.</p>
+<h2 id="target-audience-and-prerequisites-for-the-tutorial">Target Audience and Prerequisites for the tutorial</h2>
+
+<p>Anyone who is interested in causal inference and machine learning, especially economists/statisticians/data scientists who want to learn how to combine causal inference and machine learning with real industry use cases incorporated in large scaled machine learning systems at companies such as Microsoft, TripAdvisor and Uber.
+The tutorial assumes some basic knowledge in statistical methods, machine learning algorithms and the Python programming language.</p>
+
+<h2 id="outline">Outline</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Title</td>
+      <td>Duration</td>
+    </tr>
+    <tr>
+      <td>Introduction to Causal Inference</td>
+      <td>20 minutes</td>
+    </tr>
+    <tr>
+      <td>Case Studies Part 1 by CausalML</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Introduction to CausalML</td>
+      <td>15 minutes</td>
+    </tr>
+    <tr>
+      <td>Case Study #1: Causal Impact Analysis with Observational Data: CeViChE at Uber</td>
+      <td>30 minutes</td>
+    </tr>
+    <tr>
+      <td>Case Study #2: Targeting Optimization: Bidder at Uber</td>
+      <td>30 minutes</td>
+    </tr>
+    <tr>
+      <td>Case Studies Part 2 by EconML</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Introduction to EconML</td>
+      <td>15 minutes</td>
+    </tr>
+    <tr>
+      <td>Case Study #3: Customer Segmentation at TripAdvisor with Recommendation A/B Tests</td>
+      <td>30 minutes</td>
+    </tr>
+    <tr>
+      <td>Case Study #4: Long-Term Return-on-Investment at Microsoft via Short-Term Proxies</td>
+      <td>30 minutes</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="presentation-abstracts">Presentation Abstracts</h2>
+
+<h3 id="introduction-to-causal-inference">Introduction to Causal Inference</h3>
+
+<p>We will give an overview of basic concepts in causal inference. A quick refresher on the main tools and terminology of causal inference: correlation vs causation, average, conditional, and individual treatment effects, causal inference via randomization, Causal inference using instrumental variables,  Causal inference via unconfoundedness.</p>
+
+<h3 id="introduction-to-casualml">Introduction to CasualML</h3>
+
+<p>We will provide an overview of CausalML, an open source Python package that provides a suite of uplift modeling and causal inference methods using machine learning algorithms based on recent research. We will introduce the main components of CausalML: (1) inference with causal machine learning algorithms (e.g. meta-learners, uplift trees, CEVAE, dragonnet), (2) validation/analysis methods (e.g. synthetic data generation, AUUC, sensitivity analysis, interpretability), (3) optimization methods (e.g. policy optimization, value optimization, unit selection).</p>
+
+<h3 id="case-1-causal-impact-analysis-with-observational-data-at-uber">Case #1: Causal Impact Analysis with Observational Data at Uber</h3>
+
+<p>As an introductory case study for using causal inference, we will cover the use case of understanding the causal impact from observational data in the context of cross sell at Uber. We emphasize that simple comparisons of users who make cross purchase or not will produce biased estimates and that can be demonstrated in the causal inference framework. We show the use of different causal estimation methodologies through propensity score matching and meta learners to estimate the causal impact. In addition, we will use sensitivity analysis to show the robustness of the estimates.</p>
+
+<h3 id="case-2-targeting-optimization-bidder-at-uber">Case #2: Targeting Optimization: Bidder at Uber</h3>
+
+<p>We will introduce the audience selection method with uplift modeling in online RTB, which aims to estimate heterogeneous treatment effects for advertising. It has been studied to provide a superior return on investment by selecting the most incremental users for a specific campaign. To examine the effectiveness of uplift modeling in the context of real-time bidding, we conducted the comparative analysis of four different meta-learners on real campaign data. We adapted an explore-exploit set up for offline training and online evaluation. We will also introduce how we use Targeted Maximum Likelihood Estimation (TMLE) based Average Treatment Effect (ATE) as ground truth for evaluation.</p>
+
+<h3 id="introduction-to-econml">Introduction to EconML</h3>
+
+<p>We will provide an overview of recent methodologies that combine machine learning with causal inference and the significant statistical power that machine learning brings to causal inference estimation methods. We will outline the structure and capabilities of the EconML package and describe some of the key causal machine learning methodologies that are implemented (e.g. double machine learning, causal forests, deepiv, doubly robust learning, dynamic double machine learning). We will also outline approaches to confidence interval construction (e.g. bootstrap, bootstrap-of-little-bags, debiased lasso), interpretability (shap values, tree interpreters) and policy learning (doubly robust policy learning).</p>
+
+<h3 id="case-3-customer-segmentation-at-tripadvisor-with-recommendation-ab-tests">Case #3: Customer Segmentation at TripAdvisor with Recommendation A/B Tests</h3>
+
+<p>We examine the scenario in which we wish to learn heterogeneous treatment effects (CATE), but observational data is biased and direct experimental data (e.g. A/B test) is plagued by imperfect compliance. In this setup, TripAdvisor would like to know whether joining a membership program compels users to spend more time engaging with the website and purchasing more products. The usual approach, a direct A/B test, is infeasible: the website cannot force users to comply and become members, hence the imperfect compliance that can bias calculations. The solution is to use an alternative A/B test that was originally designed to measure whether an easier sign-up process would promote user membership. This A/B test plays the role of an instrument that nudges users to sign up for membership. We introduce EconML’s IntentToTreatDRIV estimator which can leverage this repurposed A/B test to both learn the effect of membership on user engagement and understand how these effects vary with customer features. We show how this novel methodology led to extracting key business insights and helped TripAdvisor understand and differentiate how customers engage with their platform.</p>
+
+<h3 id="case-4-long-term-return-on-investment-at-microsoft-via-short-term-proxies">Case #4: Long-Term Return-on-Investment at Microsoft via Short-Term Proxies</h3>
+
+<p>In this case study, we talk about using observational data to measure the long term Return-on-Investment of some types of dollar value investments Microsoft gives to the enterprise customers. There are many challenges for this setting, for instance, we don’t have enough period of data to identify a long term ROI, we should control the effect coming from the future investment and we are in a high dimensional data space. We then propose a surrogate based approach assuming the long-term effect is channeled through some short-term proxies and employ a dynamic adjustment to the surrogate model in order to get rid of the effect from future investment, finally apply double machine learning (DML) techniques to estimate the ROI. We apply this methodology to answer the questions like what is the average long-run ROI on each type of the investment? What types of customers have a higher ROI to a specific investment? And how different incentives impact the different solution areas. Finally we will showcase how you could use EconML to solve similar problems by only a few lines of code.</p>
+
+<h2 id="tutors">Tutors</h2>
+
+<h3 id="presenters">Presenters</h3>
+
+<ul>
+  <li>Jing Pan, Uber, CausalML</li>
+  <li>Yifeng Wu, Uber, CausalML</li>
+  <li>Huigang Chen, Facebook, CausalML</li>
+  <li>Totte Harinen, Toyota Research Institute, CausalML</li>
+  <li>Greg Lewis, Microsoft Research, EconML</li>
+  <li>Vasilis Syrgkanis, Microsoft Research, EconML</li>
+  <li>Miruna Oprescu, Microsoft Research, EconML</li>
+  <li>Maggie Hei, Microsoft Research, EconML</li>
+</ul>
+
+<h3 id="contributors">Contributors</h3>
+
+<ul>
+  <li>Jeong-Yoon Lee, Netflix, CausalML</li>
+  <li>Paul Lo, Uber, CausalML</li>
+  <li>Keith Battocchi, Microsoft Research, EconML</li>
+  <li>Eleanor Dillon, Microsoft Research, EconML</li>
+</ul>
+
+<h3 id="references">References</h3>
+
+<ol>
+  <li>Künzel, Sören R., et al. “Metalearners for estimating heterogeneous treatment effects using machine learning.” Proceedings of the national academy of sciences 116.10 (2019): 4156-4165. (paper)</li>
+  <li>Chernozhukov, Victor, et al. “Double/debiased/neyman machine learning of treatment effects.” American Economic Review 107.5 (2017): 261-65. (paper)</li>
+  <li>Nie, Xinkun, and Stefan Wager. “Quasi-oracle estimation of heterogeneous treatment effects.” arXiv preprint arXiv:1712.04912 (2017). (paper)</li>
+  <li>Tso, Fung Po, et al. “DragonNet: a robust mobile internet service system for long-distance trains.” IEEE transactions on mobile computing 12.11 (2013): 2206-2218. (paper)</li>
+  <li>Louizos, Christos, et al. “Causal effect inference with deep latent-variable models.” arXiv preprint arXiv:1705.08821 (2017). (paper)</li>
+  <li>Wager, Stefan, and Susan Athey. “Estimation and inference of heterogeneous treatment effects using random forests.” Journal of the American Statistical Association 113.523 (2018): 1228-1242. (paper)</li>
+  <li>Oprescu, Miruna, et al. “EconML: A Machine Learning Library for Estimating Heterogeneous Treatment Effects.” (repo)</li>
+  <li>Chen, Huigang, et al. “Causalml: Python package for causal machine learning.” arXiv preprint arXiv:2002.11631 (2020). (repo)</li>
+  <li>Yao, Liuyi, et al. “A survey on causal inference.” arXiv preprint arXiv:2002.02770 (2020). (paper)</li>
+  <li>Goldenberg, Dmitri, et al. “Personalization in Practice: Methods and Applications.” Proceedings of the 14th ACM International Conference on Web Search and Data Mining. 2021. (paper)</li>
+  <li>Blackwell, Matthew. “A selection bias approach to sensitivity analysis for causal effects.” Political Analysis 22.2 (2014): 169-182. (paper)</li>
+  <li>Athey, Susan, and Stefan Wager. “Efficient policy learning.” arXiv preprint arXiv:1702.02896 (2017). (paper)</li>
+  <li>Sharma, Amit, and Emre Kiciman. “Causal Inference and Counterfactual Reasoning.” Proceedings of the 7th ACM IKDD CoDS and 25th COMAD. 2020. 369-370. (paper)</li>
+  <li>Li, Ang, and Judea Pearl. “Unit selection based on counterfactual logic.” Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence. 2019. (paper)</li>
+  <li>Kennedy, Edward H. “Optimal doubly robust estimation of heterogeneous causal effects.” arXiv preprint arXiv:2004.14497 (2020). (paper)</li>
+  <li>Gruber, Susan, and Mark J. Van Der Laan. “Targeted maximum likelihood estimation: A gentle introduction.” (2009). (paper)</li>
+  <li>D. Foster, V. Syrgkanis. Orthogonal Statistical Learning. Proceedings of the 32nd Annual Conference on Learning Theory (COLT), 2019</li>
+  <li>V. Syrgkanis, V. Lei, M. Oprescu, M. Hei, K. Battocchi, G. Lewis. Machine Learning Estimation of Heterogeneous Treatment Effects with Instruments. Proceedings of the 33rd Conference on Neural Information Processing Systems (NeurIPS), 2019</li>
+  <li>M. Oprescu, V. Syrgkanis and Z. S. Wu. Orthogonal Random Forest for Causal Inference. Proceedings of the 36th International Conference on Machine Learning (ICML), 2019.</li>
+  <li>Jason Hartford, Greg Lewis, Kevin Leyton-Brown, and Matt Taddy. Deep IV: A flexible approach for counterfactual prediction. Proceedings of the 34th International Conference on Machine Learning, ICML’17, 2017.</li>
+  <li>Battocchi, K., Dillon, E., Hei, M., Lewis, G., Oprescu, M., &amp; Syrgkanis, V. (2021). Estimating the Long-Term Effects of Novel Treatments. arXiv preprint arXiv:2103.08390.</li>
+  <li>Lewis, G., &amp; Syrgkanis, V. (2020). Double/Debiased Machine Learning for Dynamic Treatment Effects. arXiv preprint arXiv:2002.07285.</li>
+</ol>
 
 <h1 id="posts">Posts</h1>
 
