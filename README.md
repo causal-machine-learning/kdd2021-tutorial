@@ -27,7 +27,7 @@ The tutorial assumes some basic knowledge in statistical methods, machine learni
 |-----------|--------------|--------|------|
 | **Introduction to Causal Inference** | 20 minutes | | |
 | **Case Studies Part 1 by CausalML** | | | |
-| Introduction to CausalML| 15 minutes | | |
+| Introduction to CausalML| 15 minutes | [link](https://drive.google.com/file/d/1ukFsX0QU0kdlQHv_VG_F8QJZtqZ86cwy/view) | |
 | Case Study #1: Causal Impact Analysis with Observational Data: CeViChE at Uber | 30 minutes | | |
 | Case Study #2: Targeting Optimization: Bidder at Uber | 30 minutes | | |
 | **Case Studies Part 2 by EconML** | | | |
@@ -74,6 +74,7 @@ In this case study, we talk about using observational data to measure the long t
 * Yifeng Wu, Uber, CausalML
 * Huigang Chen, Facebook, CausalML
 * Totte Harinen, Toyota Research Institute, CausalML
+* Paul Lo, Uber, CausalML
 * Greg Lewis, Microsoft Research, EconML
 * Vasilis Syrgkanis, Microsoft Research, EconML
 * Miruna Oprescu, Microsoft Research, EconML
@@ -82,7 +83,6 @@ In this case study, we talk about using observational data to measure the long t
 ### Contributors
 
 * Jeong-Yoon Lee, Netflix, CausalML
-* Paul Lo, Uber, CausalML
 * Zhenyu Zhao, Tencent, CausalML
 * Keith Battocchi, Microsoft Research, EconML
 * Eleanor Dillon, Microsoft Research, EconML
