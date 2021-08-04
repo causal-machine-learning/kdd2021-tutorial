@@ -38,7 +38,7 @@ The tutorial assumes some basic knowledge in statistical methods, machine learni
 | Case Study #2: Targeting Optimization: Bidder at Uber | 30 minutes | | |
 | **Case Studies Part 2 by EconML**   | | | |
 | Introduction to EconML| 15 minutes    | [Slides](https://drive.google.com/file/d/1gt4KNznrYbwdryi9jGcC0-hDCNg7mBNE/view?usp=sharing) | |
-| Case Study #3: Customer Segmentation at TripAdvisor with Recommendation A/B Tests | 30 minutes | [Slides](https://drive.google.com/file/d/1yyIu_3epIVXbwzJj658Iv4vxHGjtPh8n/view?usp=sharing) | |
+| Case Study #3: Customer Segmentation at TripAdvisor with Recommendation A/B Tests | 30 minutes | [Slides](https://drive.google.com/file/d/1yyIu_3epIVXbwzJj658Iv4vxHGjtPh8n/view?usp=sharing) | [Notebook](https://colab.research.google.com/drive/1nUhkLVpanv-gm_oA7FbValhpDpEs02wR#scrollTo=qk4_f4tx5gZz) |
 | Case Study #4: Long-Term Return-on-Investment at Microsoft via Short-Term Proxies | 30 minutes | [Slides](https://drive.google.com/file/d/1FEKXFHHATntHjsEymXnEw6GAiUGMm8sG/view?usp=sharing) | |
 
 ## **Presentation Abstracts**
