@@ -34,13 +34,12 @@ The tutorial assumes some basic knowledge in statistical methods, machine learni
 | **Introduction to Causal Inference** | 20 minutes | [Slides](https://drive.google.com/file/d/1O1oVU3nX7ThzCrUxlFK-OJsxF3Bz8Khl/view?usp=sharing) | |
 | **Case Studies Part 1 by CausalML** | | | |
 | Introduction to CausalML| 15 minutes  | [Slides](https://drive.google.com/file/d/1ukFsX0QU0kdlQHv_VG_F8QJZtqZ86cwy/view) | |
-| Case Study #1: Causal Impact Analysis with Observational Data: CeViChE at Uber | 30 minutes | [Slides](https://docs.google.com/presentation/d/1FvRtis2fm4c2R7XmRKWMTtZaZjUObW1fGxpNmapmjKI/edit)| [Notebook](https://colab.research.google.com/drive/1ySwg9BIYWS5oLQ5haorMyiIbyiCJ431J?usp=sharing) |
+| Case Study #1: Causal Impact Analysis with Observational Data: CeViChE at Uber | 30 minutes | [Slides](https://docs.google.com/presentation/d/1FvRtis2fm4c2R7XmRKWMTtZaZjUObW1fGxpNmapmjKI/edit?usp=sharing)| [Notebook](https://colab.research.google.com/drive/1ySwg9BIYWS5oLQ5haorMyiIbyiCJ431J?usp=sharing) |
 | Case Study #2: Targeting Optimization: Bidder at Uber | 30 minutes |[Slides](https://drive.google.com/file/d/19oWSsGL4Y478iz7EW1TOP_eahYgr7Syk/view?usp=sharing) |[Notebook](https://colab.research.google.com/drive/1ItwXhNsSofVV-xfe6CGEG7yr96VlShvA?usp=sharing) |
 | **Case Studies Part 2 by EconML**   | | | |
 | Introduction to EconML| 15 minutes    | [Slides](https://drive.google.com/file/d/1gt4KNznrYbwdryi9jGcC0-hDCNg7mBNE/view?usp=sharing) | [Notebook](https://colab.research.google.com/drive/1m2Ob7dc1JalEb6FIzSG1tx0qW491-YNc?authuser=1) |
 | Case Study #3: Customer Segmentation at TripAdvisor with Recommendation A/B Tests | 30 minutes | [Slides](https://drive.google.com/file/d/1yyIu_3epIVXbwzJj658Iv4vxHGjtPh8n/view?usp=sharing) | [Notebook](https://colab.research.google.com/drive/1nUhkLVpanv-gm_oA7FbValhpDpEs02wR#scrollTo=qk4_f4tx5gZz) |
 | Case Study #4: Long-Term Return-on-Investment at Microsoft via Short-Term Proxies | 30 minutes | [Slides](https://drive.google.com/file/d/1FEKXFHHATntHjsEymXnEw6GAiUGMm8sG/view?usp=sharing) | [Notebook](https://colab.research.google.com/drive/1Ow7ArXRn1NJq47OLvchi26RRTdm94yv8?usp=sharing) |
-
 
 ## **Presentation Abstracts**
 
