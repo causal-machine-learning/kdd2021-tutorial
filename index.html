@@ -88,7 +88,7 @@ In this case study, we talk about using observational data to measure the long t
 
 ### Contributors
 
-* Jeong-Yoon Lee, Netflix, CausalML
+* Jeong-Yoon Lee, Netflix Research, CausalML
 * Zhenyu Zhao, Tencent, CausalML
 * Keith Battocchi, Microsoft Research, EconML
 * Eleanor Dillon, Microsoft Research, EconML
