@@ -35,7 +35,7 @@ The tutorial assumes some basic knowledge in statistical methods, machine learni
 | **Case Studies Part 1 by CausalML** | | | |
 | Introduction to CausalML| 15 minutes  | [Slides](https://drive.google.com/file/d/1ukFsX0QU0kdlQHv_VG_F8QJZtqZ86cwy/view) | |
 | Case Study #1: Causal Impact Analysis with Observational Data: CeViChE at Uber | 30 minutes | [Slides](https://docs.google.com/presentation/d/1FvRtis2fm4c2R7XmRKWMTtZaZjUObW1fGxpNmapmjKI/edit?usp=sharing)| [Notebook](https://colab.research.google.com/drive/1ySwg9BIYWS5oLQ5haorMyiIbyiCJ431J?usp=sharing) |
-| Case Study #2: Targeting Optimization: Bidder at Uber | 30 minutes |[Slides](https://drive.google.com/file/d/19oWSsGL4Y478iz7EW1TOP_eahYgr7Syk/view?usp=sharing) |[Notebook](https://colab.research.google.com/drive/1ItwXhNsSofVV-xfe6CGEG7yr96VlShvA?usp=sharing) |
+| Case Study #2: Targeting Optimization: Bidder at Uber | 30 minutes |[Slides](https://drive.google.com/file/d/1QJJUCo4LH5kGQP3kaJlG1RdhjhaJWp-5/view?usp=sharing) |[Notebook](https://colab.research.google.com/drive/1fnZEHIAcNxrvSxFrlO1hRTHO7sazXbo0?usp=sharing) |
 | **Case Studies Part 2 by EconML**   | | | |
 | Introduction to EconML| 15 minutes    | [Slides](https://drive.google.com/file/d/1gt4KNznrYbwdryi9jGcC0-hDCNg7mBNE/view?usp=sharing) | [Notebook](https://colab.research.google.com/drive/1m2Ob7dc1JalEb6FIzSG1tx0qW491-YNc?usp=sharing) |
 | Case Study #3: Customer Segmentation at TripAdvisor with Recommendation A/B Tests | 30 minutes | [Slides](https://drive.google.com/file/d/1yyIu_3epIVXbwzJj658Iv4vxHGjtPh8n/view?usp=sharing) | [Notebook](https://colab.research.google.com/drive/1nUhkLVpanv-gm_oA7FbValhpDpEs02wR#scrollTo=qk4_f4tx5gZz) |
