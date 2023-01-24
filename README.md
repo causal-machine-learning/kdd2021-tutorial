@@ -33,7 +33,7 @@ The tutorial assumes some basic knowledge in statistical methods, machine learni
 |-----------|--------------|--------|------|
 | **Introduction to Causal Inference** | 20 minutes | [Slides](https://drive.google.com/file/d/1O1oVU3nX7ThzCrUxlFK-OJsxF3Bz8Khl/view?usp=sharing) | |
 | **Case Studies Part 1 by CausalML** | | | |
-| Introduction to CausalML| 15 minutes  | [Slides](https://drive.google.com/file/d/1ukFsX0QU0kdlQHv_VG_F8QJZtqZ86cwy/view) | |
+| Introduction to CausalML| 15 minutes  | [Slides](https://docs.google.com/presentation/d/1D-cqqwKyWseVoNQEH-d0TS9wqK55l3bSn3PaLFxNEWI/edit?usp=sharing) | |
 | Case Study #1: Causal Impact Analysis with Observational Data: CeViChE at Uber | 30 minutes | [Slides](https://docs.google.com/presentation/d/1FvRtis2fm4c2R7XmRKWMTtZaZjUObW1fGxpNmapmjKI/edit?usp=sharing)| [Notebook](https://colab.research.google.com/drive/1ySwg9BIYWS5oLQ5haorMyiIbyiCJ431J?usp=sharing) |
 | Case Study #2: Targeting Optimization: Bidder at Uber | 30 minutes |[Slides](https://drive.google.com/file/d/1QJJUCo4LH5kGQP3kaJlG1RdhjhaJWp-5/view?usp=sharing) |[Notebook](https://colab.research.google.com/drive/1fnZEHIAcNxrvSxFrlO1hRTHO7sazXbo0?usp=sharing) |
 | **Case Studies Part 2 by EconML**   | | | |
