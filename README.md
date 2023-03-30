@@ -28,37 +28,44 @@ The tutorial assumes some basic knowledge in statistical methods, machine learni
 
 ## **Outline**
 
-| **Title** | **Duration** | Slides | Code |
-|-----------|--------------|--------|------|
-| **Introduction to Causal Inference** | 20 minutes | [Slides](https://drive.google.com/file/d/1O1oVU3nX7ThzCrUxlFK-OJsxF3Bz8Khl/view?usp=sharing) | |
-| **Case Studies Part 1 by CausalML** | | | |
-| Introduction to CausalML| 15 minutes  | [Slides](https://docs.google.com/presentation/d/1D-cqqwKyWseVoNQEH-d0TS9wqK55l3bSn3PaLFxNEWI/edit?usp=sharing) | |
-| Case Study #1: Causal Impact Analysis with Observational Data: CeViChE at Uber | 30 minutes | [Slides](https://docs.google.com/presentation/d/1FvRtis2fm4c2R7XmRKWMTtZaZjUObW1fGxpNmapmjKI/edit?usp=sharing)| [Notebook](https://colab.research.google.com/drive/1ySwg9BIYWS5oLQ5haorMyiIbyiCJ431J?usp=sharing) |
-| Case Study #2: Targeting Optimization: Bidder at Uber | 30 minutes |[Slides](https://drive.google.com/file/d/1QJJUCo4LH5kGQP3kaJlG1RdhjhaJWp-5/view?usp=sharing) |[Notebook](https://colab.research.google.com/drive/1fnZEHIAcNxrvSxFrlO1hRTHO7sazXbo0?usp=sharing) |
-| **Case Studies Part 2 by EconML**   | | | |
-| Introduction to EconML| 15 minutes    | [Slides](https://drive.google.com/file/d/1gt4KNznrYbwdryi9jGcC0-hDCNg7mBNE/view?usp=sharing) | [Notebook](https://colab.research.google.com/drive/1m2Ob7dc1JalEb6FIzSG1tx0qW491-YNc?usp=sharing) |
-| Case Study #3: Customer Segmentation at TripAdvisor with Recommendation A/B Tests | 30 minutes | [Slides](https://drive.google.com/file/d/1yyIu_3epIVXbwzJj658Iv4vxHGjtPh8n/view?usp=sharing) | [Notebook](https://colab.research.google.com/drive/1nUhkLVpanv-gm_oA7FbValhpDpEs02wR#scrollTo=qk4_f4tx5gZz) |
-| Case Study #4: Long-Term Return-on-Investment at Microsoft via Short-Term Proxies | 30 minutes | [Slides](https://drive.google.com/file/d/1FEKXFHHATntHjsEymXnEw6GAiUGMm8sG/view?usp=sharing) | [Notebook](https://colab.research.google.com/drive/1Ow7ArXRn1NJq47OLvchi26RRTdm94yv8?usp=sharing) |
+| **Title** | **Duration** | Link |
+|-----------|--------------|--------|
+| Introduction | 10 minutes | |
+| Invited Talk #1 by Yoda | 20 minutes | |
+| Invited Talk #2 by Darth Vader | 20 minutes | |
+| Paper #1 | 15 minutes | |
+| Paper #2 | 15 minutes | |
+| Paper #3 | 15 minutes | |
+| Paper #4 | 15 minutes | |
+| Break & Poster Session | 30 minutes | |
+| Invited Talk #3 by Luke Skywalker | 20 minutes | |
+| Invited Talk #4 by Princess Leia | 20 minutes | |
+| Paper #1 | 15 minutes | |
+| Paper #2 | 15 minutes | |
+| Paper #3 | 15 minutes | |
+| Paper #4 | 15 minutes | |
 
-## **Keynote Speakers**
+## **Invited Speakers**
 
-### Yoda
+### Yoda, Amazon
 
 We will give an overview of basic concepts in causal inference. A quick refresher on the main tools and terminology of causal inference: correlation vs causation, average, conditional, and individual treatment effects, causal inference via randomization, Causal inference using instrumental variables,  Causal inference via unconfoundedness.
 
-### Darth Vader
+### Darth Vader, University of Darth Star
 
 We will provide an overview of CausalML, an open source Python package that provides a suite of uplift modeling and causal inference methods using machine learning algorithms based on recent research. We will introduce the main components of CausalML: (1) inference with causal machine learning algorithms (e.g. meta-learners, uplift trees, CEVAE, dragonnet), (2) validation/analysis methods (e.g. synthetic data generation, AUUC, sensitivity analysis, interpretability), (3) optimization methods (e.g. policy optimization, value optimization, unit selection).
 
-### Luke Skywalker
+### Luke Skywalker, Stanford University
 
 As an introductory case study for using causal inference, we will cover the use case of understanding the causal impact from observational data in the context of cross sell at Uber. We emphasize that simple comparisons of users who make cross purchase or not will produce biased estimates and that can be demonstrated in the causal inference framework. We show the use of different causal estimation methodologies through propensity score matching and meta learners to estimate the causal impact. In addition, we will use sensitivity analysis to show the robustness of the estimates.
 
-### Princess Leia
+### Princess Leia, Microsoft Research
 
 We will introduce the audience selection method with uplift modeling in online RTB, which aims to estimate heterogeneous treatment effects for advertising. It has been studied to provide a superior return on investment by selecting the most incremental users for a specific campaign. To examine the effectiveness of uplift modeling in the context of real-time bidding, we conducted the comparative analysis of four different meta-learners on real campaign data. We adapted an explore-exploit set up for offline training and online evaluation. We will also introduce how we use Targeted Maximum Likelihood Estimation (TMLE) based Average Treatment Effect (ATE) as ground truth for evaluation. 
 
 ## **Accepted Papers**
+
+To be updated
 
 ## **Organizers**
 
@@ -79,5 +86,6 @@ We will introduce the audience selection method with uplift modeling in online R
 
 ### EconML Team
 
-* Keith Battocchi, Microsoft Research, EconML
+* Fabio Vera, Microsoft Research, EconML
 * Eleanor Dillon, Microsoft Research, EconML
+* Keith Battocchi, Microsoft Research, EconML
