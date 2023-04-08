@@ -31,8 +31,8 @@ The tutorial assumes some basic knowledge in statistical methods, machine learni
 | **Title** | **Duration** | Link |
 |-----------|--------------|--------|
 | Introduction | 10 minutes | |
-| Invited Talk #1 by Yoda | 20 minutes | |
-| Invited Talk #2 by Darth Vader | 20 minutes | |
+| Invited Talk #1 by Raif Rustamov | 20 minutes | |
+| Invited Talk #2 by Ruomeng Cui | 20 minutes | |
 | Paper #1 | 15 minutes | |
 | Paper #2 | 15 minutes | |
 | Paper #3 | 15 minutes | |
@@ -47,11 +47,11 @@ The tutorial assumes some basic knowledge in statistical methods, machine learni
 
 ## **Invited Speakers**
 
-### Yoda, Amazon
+### Raif Rustamov, Amazon
 
-We will give an overview of basic concepts in causal inference. A quick refresher on the main tools and terminology of causal inference: correlation vs causation, average, conditional, and individual treatment effects, causal inference via randomization, Causal inference using instrumental variables,  Causal inference via unconfoundedness.
+Video creatives have a substantial impact on consumer experiences and brand perceptions, but evaluating their effect on shopper behavior remains a complex challenge. In this talk, we introduce the Creative Optimality Gap (COG), a novel metric developed using causal-inferential machine learning methodologies to quantify the relative optimality of video creatives. We provide an example application of this approach in assessing the effectiveness of video creatives for brand advertising at Amazon.
 
-### Darth Vader, University of Darth Star
+### Ruomeng Cui, Emory University
 
 We will provide an overview of CausalML, an open source Python package that provides a suite of uplift modeling and causal inference methods using machine learning algorithms based on recent research. We will introduce the main components of CausalML: (1) inference with causal machine learning algorithms (e.g. meta-learners, uplift trees, CEVAE, dragonnet), (2) validation/analysis methods (e.g. synthetic data generation, AUUC, sensitivity analysis, interpretability), (3) optimization methods (e.g. policy optimization, value optimization, unit selection).
 
