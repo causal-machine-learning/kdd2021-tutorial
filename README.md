@@ -38,8 +38,8 @@ The tutorial assumes some basic knowledge in statistical methods, machine learni
 | Paper #3 | 15 minutes | |
 | Paper #4 | 15 minutes | |
 | Break & Poster Session | 30 minutes | |
-| Invited Talk #3 by Luke Skywalker | 20 minutes | |
-| Invited Talk #4 by Princess Leia | 20 minutes | |
+| Invited Talk #3 by Ang Li | 20 minutes | |
+| Invited Talk #4 by TBD | 20 minutes | |
 | Paper #1 | 15 minutes | |
 | Paper #2 | 15 minutes | |
 | Paper #3 | 15 minutes | |
@@ -53,15 +53,25 @@ Video creatives have a substantial impact on consumer experiences and brand perc
 
 ### Ruomeng Cui, Emory University
 
-We will provide an overview of CausalML, an open source Python package that provides a suite of uplift modeling and causal inference methods using machine learning algorithms based on recent research. We will introduce the main components of CausalML: (1) inference with causal machine learning algorithms (e.g. meta-learners, uplift trees, CEVAE, dragonnet), (2) validation/analysis methods (e.g. synthetic data generation, AUUC, sensitivity analysis, interpretability), (3) optimization methods (e.g. policy optimization, value optimization, unit selection).
+We will provide an overview of CausalML, an open source Python package that provides a suite of uplift modeling and
+causal inference methods using machine learning algorithms based on recent research. We will introduce the main
+components of CausalML: (1) inference with causal machine learning algorithms (e.g. meta-learners, uplift trees, CEVAE,
+dragonnet), (2) validation/analysis methods (e.g. synthetic data generation, AUUC, sensitivity analysis,
+interpretability), (3) optimization methods (e.g. policy optimization, value optimization, unit selection).
 
-### Luke Skywalker, Stanford University
+### Ang Li, University of California, Los Angeles
 
-As an introductory case study for using causal inference, we will cover the use case of understanding the causal impact from observational data in the context of cross sell at Uber. We emphasize that simple comparisons of users who make cross purchase or not will produce biased estimates and that can be demonstrated in the causal inference framework. We show the use of different causal estimation methodologies through propensity score matching and meta learners to estimate the causal impact. In addition, we will use sensitivity analysis to show the robustness of the estimates.
-
-### Princess Leia, Microsoft Research
-
-We will introduce the audience selection method with uplift modeling in online RTB, which aims to estimate heterogeneous treatment effects for advertising. It has been studied to provide a superior return on investment by selecting the most incremental users for a specific campaign. To examine the effectiveness of uplift modeling in the context of real-time bidding, we conducted the comparative analysis of four different meta-learners on real campaign data. We adapted an explore-exploit set up for offline training and online evaluation. We will also introduce how we use Targeted Maximum Likelihood Estimation (TMLE) based Average Treatment Effect (ATE) as ground truth for evaluation. 
+The unit selection problem aims to identify a set of individuals who are most likely to
+exhibit a desired mode of behavior, which is defined in counterfactual terms. A typical
+example is that of selecting individuals who would respond one way if encouraged and a
+different way if not encouraged. Unlike previous works on this problem, which rely on ad-hoc
+heuristics, we approach this problem formally, using counterfactual logic, to properly capture
+the nature of the desired behavior. This formalism enables us to derive an informative
+selection criterion which integrates experimental and observational data. We show that a
+more accurate selection criterion can be achieved when structural information is available
+in the form of a causal diagram. We further discuss data availability issue regarding the
+derivation of the selection criterion without the observational or experimental data. We
+demonstrate the superiority of this criterion over A/B-test-based approaches.
 
 ## **Accepted Papers**
 
