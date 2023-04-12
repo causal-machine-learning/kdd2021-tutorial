@@ -1,8 +1,8 @@
 ---
 name: "[fastpages] Automated Upgrade"
-about: "Trigger a PR for upgrading fastpages"
+about: Trigger a PR for upgrading fastpages
 title: "[fastpages] Automated Upgrade"
-labels: fastpages-automation
+labels: ''
 assignees: ''
 
 ---
