@@ -8,23 +8,32 @@
 
 ## **Schedule**
 
-* Long Beach Convention & Entertainment Center, 300 E Ocean Blvd, Long Beach, CA 90802 ([Google Map](https://goo.gl/maps/1N3XGEovGgJqXAV98))
+* Long Beach Convention & Entertainment Center, 300 E Ocean Blvd, Long Beach, CA 90802
+([Map](https://goo.gl/maps/1N3XGEovGgJqXAV98))
 * 9:00 AM - 1:00 PM August 7, 2023 [PDT]
 
 ## **Abstract**
 
-In recent years, both academic research and industry applications see an increased effort in using machine learning methods to measure granular causal effects and design optimal policies based on these causal estimates. Open source packages such as [CausalML](https://github.com/uber/causalml) and [EconML](https://github.com/microsoft/econml) provide a unified interface for applied researchers and industry practitioners with a variety of machine learning methods for causal inference. The tutorial will cover the topics including conditional treatment effect estimators by meta-learners and tree-based algorithms, model validations and sensitivity analysis, optimization algorithms including policy leaner and cost optimization. In addition, the tutorial will demonstrate the production of these algorithms in industry use cases.
+The increasing demand for data-driven decision-making has led to the rapid growth of machine learning applications in
+various industries. However, the ability to draw causal inferences from observational data remains a crucial challenge.
+In recent years, causal inference has emerged as a powerful tool for understanding the effects of interventions in
+complex systems. Combining causal inference with machine learning has the potential to provide a deeper understanding of
+the underlying mechanisms and to develop more effective solutions to real-world problems.
 
-## **Target Audience for the Workshop**
+This workshop aims to bring together researchers and practitioners from academia and industry to share their experiences
+and insights on applying causal inference and machine learning techniques to real-world problems in the areas of
+product, brand, policy, and beyond. The workshop welcomes original research that covers machine learning theory, deep
+learning, causal inference, and online learning. Additionally, the workshop encourages topics that address scalable
+system design, algorithm bias, and interpretablility.
 
-Anyone who is interested in causal inference and machine learning, especially economists/statisticians/data scientists who want to learn how to combine causal inference and machine learning with real industry use cases incorporated in large scaled machine learning systems at companies such as Microsoft, TripAdvisor and Uber.
-The tutorial assumes some basic knowledge in statistical methods, machine learning algorithms and the Python programming language.
+Through keynote talks, panel discussions, and contributed talks and posters, the workshop will provide a forum for
+discussing the latest advances and challenges in applying causal inference and machine learning to real-world problems.
+The workshop will also offer opportunities for networking and collaboration among researchers and practitioners working
+in industry, government, and academia.
 
-## **Important Dates**
+## **Call for Paper**
 
-* May 23, 2023 [AoE]: Workshop paper submission deadline
-* June 23, 2023: Paper decision notifications
-* August 7, 2023: Workshop
+Please check the [Call for Paper](/cfp/) page for details on important dates and submission guidelines.
 
 ## **Outline**
 
@@ -49,7 +58,11 @@ The tutorial assumes some basic knowledge in statistical methods, machine learni
 
 ### Raif Rustamov, Amazon
 
-Video creatives have a substantial impact on consumer experiences and brand perceptions, but evaluating their effect on shopper behavior remains a complex challenge. In this talk, we introduce the Creative Optimality Gap (COG), a novel metric developed using causal-inferential machine learning methodologies to quantify the relative optimality of video creatives. We provide an example application of this approach in assessing the effectiveness of video creatives for brand advertising at Amazon.
+Video creatives have a substantial impact on consumer experiences and brand perceptions, but evaluating their effect on
+shopper behavior remains a complex challenge. In this talk, we introduce the Creative Optimality Gap (COG), a novel
+metric developed using causal-inferential machine learning methodologies to quantify the relative optimality of video
+creatives. We provide an example application of this approach in assessing the effectiveness of video creatives for
+brand advertising at Amazon.
 
 ### Ruomeng Cui, Emory University
 
@@ -84,7 +97,7 @@ To be updated
 * Xinwei Ma, UC San Diego
 * [Zeyu Zheng](mailto:zyzheng@berkeley.edu), UC Berkeley, Amazon - main contact
 
-### CausalML Team
+### [CausalML](https://github.com/uber/causalml) Team
 
 * Jing Pan, Snap, CausalML
 * Yifeng Wu, Uber, CausalML
@@ -94,7 +107,7 @@ To be updated
 * [Jeong-Yoon Lee](mailto:jeong@uber.com), Uber, CausalML - main contact
 * Zhenyu Zhao, Tencent, CausalML
 
-### EconML Team
+### [EconML](https://github.com/py-why/EconML) Team
 
 * Fabio Vera, Microsoft Research, EconML
 * Eleanor Dillon, Microsoft Research, EconML
