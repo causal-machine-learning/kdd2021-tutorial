@@ -1,5 +1,5 @@
 ---
-permalink: /cfp.html
+permalink: /cfp/
 layout: default
 title: Call for Paper
 search_exclude: true
