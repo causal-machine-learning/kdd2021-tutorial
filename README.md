@@ -33,7 +33,7 @@ in industry, government, and academia.
 
 ## **Call for Paper**
 
-Please check the [Call for Paper](/cfp/) page for details on important dates and submission guidelines.
+Please check the [Call for Paper](https://causal-machine-learning.github.io/kdd2023-workshop/cfp/) page for details on important dates and submission guidelines.
 
 ## **Outline**
 
