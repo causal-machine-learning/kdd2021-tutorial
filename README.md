@@ -10,7 +10,8 @@
 
 * Long Beach Convention & Entertainment Center, 300 E Ocean Blvd, Long Beach, CA 90802
 ([Map](https://goo.gl/maps/1N3XGEovGgJqXAV98))
-* 9:00 AM - 1:00 PM August 7, 2023 [PDT]
+* Date: August 7, 2023
+* Time: TBD
 
 ## **Abstract**
 
@@ -48,7 +49,7 @@ Please check the [Call for Paper](https://causal-machine-learning.github.io/kdd2
 | Paper #4 | 15 minutes | |
 | Break & Poster Session | 30 minutes | |
 | Invited Talk #3 by Ang Li | 20 minutes | |
-| Invited Talk #4 by TBD | 20 minutes | |
+| Invited Talk #4 by Vasilis Syrgkanis | 20 minutes | |
 | Paper #1 | 15 minutes | |
 | Paper #2 | 15 minutes | |
 | Paper #3 | 15 minutes | |
@@ -85,6 +86,9 @@ more accurate selection criterion can be achieved when structural information is
 in the form of a causal diagram. We further discuss data availability issue regarding the
 derivation of the selection criterion without the observational or experimental data. We
 demonstrate the superiority of this criterion over A/B-test-based approaches.
+
+### Vasilis Syrgkanis, Stanford University/EconML
+
 
 ## **Accepted Papers**
 
