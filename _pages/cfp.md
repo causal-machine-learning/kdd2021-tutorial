@@ -18,7 +18,7 @@ All deadlines are at 11:59 PM [AoE](https://www.timeanddate.com/time/zones/aoe).
 
 ## **Submission Link**
 
-CMT submission portal will open on April 30th.
+* CMT submission portal: [https://cmt3.research.microsoft.com/CMTSRM/Submission](https://cmt3.research.microsoft.com/CMTSRM/Submission)
 
 ## **Aim and Scope**
 
