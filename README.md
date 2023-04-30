@@ -25,39 +25,47 @@ This workshop aims to bring together researchers and practitioners from academia
 and insights on applying causal inference and machine learning techniques to real-world problems in the areas of
 product, brand, policy, and beyond. The workshop welcomes original research that covers machine learning theory, deep
 learning, causal inference, and online learning. Additionally, the workshop encourages topics that address scalable
-system design, algorithm bias, and interpretablility.
+system design, algorithm bias, and interpretability.
 
 Through keynote talks, panel discussions, and contributed talks and posters, the workshop will provide a forum for
 discussing the latest advances and challenges in applying causal inference and machine learning to real-world problems.
 The workshop will also offer opportunities for networking and collaboration among researchers and practitioners working
 in industry, government, and academia.
 
-## **Call for Paper**
+## **Paper Submission**
 
-Please check the [Call for Paper](https://causal-machine-learning.github.io/kdd2023-workshop/cfp/) page for details on important dates and submission guidelines.
+Please submit your paper to the [CMT portal](https://cmt3.research.microsoft.com/CMTSRM/) site, and check the [Call for Paper](https://causal-machine-learning.github.io/kdd2023-workshop/cfp/) page for details on important dates and submission guidelines.
 
 ## **Outline**
 
-| **Title** | **Duration** | Link |
-|-----------|--------------|--------|
-| Introduction | 10 minutes | |
-| Invited Talk #1 by Raif Rustamov | 20 minutes | |
-| Invited Talk #2 by Ruomeng Cui | 20 minutes | |
-| Paper #1 | 15 minutes | |
-| Paper #2 | 15 minutes | |
-| Paper #3 | 15 minutes | |
-| Paper #4 | 15 minutes | |
-| Break & Poster Session | 30 minutes | |
-| Invited Talk #3 by Ang Li | 20 minutes | |
-| Invited Talk #4 by Vasilis Syrgkanis | 20 minutes | |
-| Paper #1 | 15 minutes | |
-| Paper #2 | 15 minutes | |
-| Paper #3 | 15 minutes | |
-| Paper #4 | 15 minutes | |
+| **Title** | **Speaker** | **Duration** | Link |
+|-----------|-------------|--------------|------|
+| Introduction | Organizers | 10 minutes | |
+| Invited Talk #1 | [Raif Rustamov](#raif-rustamov-amazon) | 20 minutes | |
+| Invited Talk: The Value of Last-Mile Delivery in Online Retail | [Ruomeng Cui](#ruomeng-cui-emory-universityamazon) | 20 minutes | |
+| Paper #1 | | 15 minutes | |
+| Paper #2 | | 15 minutes | |
+| Paper #3 | | 15 minutes | |
+| Paper #4 | | 15 minutes | |
+| Break & Poster Session | |  30 minutes | |
+| Invited Talk #3 | [Ang Li](#ang-li-university-of-california-los-angeles) | 20 minutes | |
+| Invited Talk #4: Towards Automating the Causal Machine Learning Pipeline | [Vasilis Syrgkanis](#vasilis-syrgkanis-stanford-universityeconml) | 20 minutes | |
+| Paper #1 | | 15 minutes | |
+| Paper #2 | | 15 minutes | |
+| Paper #3 | | 15 minutes | |
+| Paper #4 | | 15 minutes | |
 
 ## **Invited Speakers**
 
 ### Raif Rustamov, Amazon
+
+#### Bio
+
+![Raif Rustamov](/images/raif.png)
+
+Raif Rustamov is a Senior Applied Scientist at Amazon where he focuses on brand advertising science including relevance modeling, representation learning, and causal inference. He previously worked as a Principal Inventive Scientist in AI and Data Science at AT&T Labs conducting research on recommender systems, customer segmentation, identity for cross-device advertising, and location analytics. Raif has a PhD in Applied and Computational Mathematics from Princeton University and has taught at Purdue and Drew Universities, as well as worked as a research associate at Stanford University.
+
+#### Abstract
 
 Video creatives have a substantial impact on consumer experiences and brand perceptions, but evaluating their effect on
 shopper behavior remains a complex challenge. In this talk, we introduce the Creative Optimality Gap (COG), a novel
@@ -65,15 +73,19 @@ metric developed using causal-inferential machine learning methodologies to quan
 creatives. We provide an example application of this approach in assessing the effectiveness of video creatives for
 brand advertising at Amazon.
 
-### Ruomeng Cui, Emory University
+### Ruomeng Cui, Emory University/Amazon
 
-We will provide an overview of CausalML, an open source Python package that provides a suite of uplift modeling and
-causal inference methods using machine learning algorithms based on recent research. We will introduce the main
-components of CausalML: (1) inference with causal machine learning algorithms (e.g. meta-learners, uplift trees, CEVAE,
-dragonnet), (2) validation/analysis methods (e.g. synthetic data generation, AUUC, sensitivity analysis,
-interpretability), (3) optimization methods (e.g. policy optimization, value optimization, unit selection).
+#### Abstract
+
+Last-mile delivery has become increasingly important in the online retail industry. In this study, we study the economic value of last-mile delivery. To do so, we conducted a quasi-experiment in collaboration with Cainiao, Alibaba's logistics subsidiary, where home delivery was launched at some pickup stations in 2021. This allowed us to comprehensively evaluate the causal impact of last-mile delivery. Using a difference-in-differences identification method, we found that last-mile delivery significantly increases sales and customer spending on the retail platform. To optimally prioritize limited delivery capacity, we employed causal machine learning to target the most responsive customers. Our findings suggest that online retailers should carefully weigh the costs and benefits of last-mile delivery and tailor their logistic strategies accordingly.
 
 ### Ang Li, University of California, Los Angeles
+
+#### Bio
+
+Dr. Li is set to join the Florida State University Department of Computer Science as an assistant professor in August. He is currently a post-doctoral researcher in the Department of Computer Science at UCLA under the guidance of Prof. Judea Pearl. His primary research area is causal inference, artificial intelligence, and causality-based decision-making, with a focus on building causal models that estimate treatment effects (interventions) and evaluating what would have happened if an individual had taken a treatment (counterfactuals). He is also interested in decision-making modeling using knowledge of treatment effects and counterfactuals. Prior to his post-doc, Dr. Li obtained his Ph.D. at UCLA with Prof. Judea Pearl and his M.S. degree at the University of Minnesota Twin Cities.
+
+#### Abstract
 
 The unit selection problem aims to identify a set of individuals who are most likely to
 exhibit a desired mode of behavior, which is defined in counterfactual terms. A typical
@@ -89,6 +101,11 @@ demonstrate the superiority of this criterion over A/B-test-based approaches.
 
 ### Vasilis Syrgkanis, Stanford University/EconML
 
+#### Bio
+
+![Vasilis Syrgkanis](/images/vasilis.png)
+
+Vasilis Syrgkanis is an Assistant Professor in Management Science and Engineering and (by courtesy) in Computer Science, in the School of Engineering at Stanford University. His research interests are in the areas of machine learning, causal inference, econometrics, online and reinforcement learning, game theory/mechanism design and algorithm design. Until August 2022, he was a Principal Researcher at Microsoft Research, New England, where he was a member of the EconCS and StatsML groups. During his time at Microsoft, he co-led the project on Automated Learning and Intelligence for Causation and Economics (ALICE) and was a co-founder of EconML, an open-source python package for causal machine learning. He received his Ph.D. in Computer Science from Cornell University.
 
 ## **Accepted Papers**
 
