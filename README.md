@@ -61,8 +61,6 @@ Please submit your paper to the [CMT portal](https://cmt3.research.microsoft.com
 
 #### Bio
 
-![Raif Rustamov](/images/raif.png)
-
 Raif Rustamov is a Senior Applied Scientist at Amazon where he focuses on brand advertising science including relevance modeling, representation learning, and causal inference. He previously worked as a Principal Inventive Scientist in AI and Data Science at AT&T Labs conducting research on recommender systems, customer segmentation, identity for cross-device advertising, and location analytics. Raif has a PhD in Applied and Computational Mathematics from Princeton University and has taught at Purdue and Drew Universities, as well as worked as a research associate at Stanford University.
 
 #### Abstract
@@ -102,8 +100,6 @@ demonstrate the superiority of this criterion over A/B-test-based approaches.
 ### Vasilis Syrgkanis, Stanford University/EconML
 
 #### Bio
-
-![Vasilis Syrgkanis](/images/vasilis.png)
 
 Vasilis Syrgkanis is an Assistant Professor in Management Science and Engineering and (by courtesy) in Computer Science, in the School of Engineering at Stanford University. His research interests are in the areas of machine learning, causal inference, econometrics, online and reinforcement learning, game theory/mechanism design and algorithm design. Until August 2022, he was a Principal Researcher at Microsoft Research, New England, where he was a member of the EconCS and StatsML groups. During his time at Microsoft, he co-led the project on Automated Learning and Intelligence for Causation and Economics (ALICE) and was a co-founder of EconML, an open-source python package for causal machine learning. He received his Ph.D. in Computer Science from Cornell University.
 
