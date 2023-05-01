@@ -11,6 +11,7 @@ search_exclude: true
 
 All deadlines are at 11:59 PM [AoE](https://www.timeanddate.com/time/zones/aoe).
 * April 30th, 2023: CMT submission portal opens
+* May 23rd, 2023: Abstract submission deadline
 * June 9th, 2023: Workshop paper submission deadline
 * July 10th, 2023: Paper decision notifications
 * July 24th, 2023: Camera-ready deadline
@@ -18,7 +19,7 @@ All deadlines are at 11:59 PM [AoE](https://www.timeanddate.com/time/zones/aoe).
 
 ## **Submission Link**
 
-* CMT submission portal: [https://cmt3.research.microsoft.com/CMTSRM/Submission](https://cmt3.research.microsoft.com/CMTSRM/Submission)
+* CMT submission portal: [https://cmt3.research.microsoft.com/CMLKDD2023/](https://cmt3.research.microsoft.com/CMLKDD2023/)
 
 ## **Aim and Scope**
 
