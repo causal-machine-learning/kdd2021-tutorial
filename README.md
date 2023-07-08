@@ -65,14 +65,6 @@ Please submit your paper to the [CMT portal](https://cmt3.research.microsoft.com
 
 Raif Rustamov is a Senior Applied Scientist at Amazon where he focuses on brand advertising science including relevance modeling, representation learning, and causal inference. He previously worked as a Principal Inventive Scientist in AI and Data Science at AT&T Labs conducting research on recommender systems, customer segmentation, identity for cross-device advertising, and location analytics. Raif has a PhD in Applied and Computational Mathematics from Princeton University and has taught at Purdue and Drew Universities, as well as worked as a research associate at Stanford University.
 
-#### Abstract
-
-Video creatives have a substantial impact on consumer experiences and brand perceptions, but evaluating their effect on
-shopper behavior remains a complex challenge. In this talk, we introduce the Creative Optimality Gap (COG), a novel
-metric developed using causal-inferential machine learning methodologies to quantify the relative optimality of video
-creatives. We provide an example application of this approach in assessing the effectiveness of video creatives for
-brand advertising at Amazon.
-
 ### Ruomeng Cui, Emory University/Amazon
 
 #### Abstract
