@@ -109,19 +109,13 @@ To be updated
 * Yingfei Wang, University of Washington
 * Xinwei Ma, UC San Diego
 * [Zeyu Zheng](mailto:zyzheng@berkeley.edu), UC Berkeley, Amazon - main contact
-
-### [CausalML](https://github.com/uber/causalml) Team
-
-* Jing Pan, Snap, CausalML
-* Yifeng Wu, Uber, CausalML
-* Huigang Chen, Meta, CausalML
-* Totte Harinen, AirBnB, CausalML
-* Paul Lo, Snap, CausalML
-* [Jeong-Yoon Lee](mailto:jeong@uber.com), Uber, CausalML - main contact
-* Zhenyu Zhao, Tencent, CausalML
-
-### [EconML](https://github.com/py-why/EconML) Team
-
-* Fabio Vera, Microsoft Research, EconML
-* Eleanor Dillon, Microsoft Research, EconML
-* Keith Battocchi, Microsoft Research, EconML
+* Jing Pan, Snap, [CausalML](https://github.com/uber/causalml)
+* Yifeng Wu, Uber, [CausalML](https://github.com/uber/causalml)
+* Huigang Chen, Meta, [CausalML](https://github.com/uber/causalml)
+* Totte Harinen, AirBnB, [CausalML](https://github.com/uber/causalml)
+* Paul Lo, Snap, [CausalML](https://github.com/uber/causalml)
+* [Jeong-Yoon Lee](mailto:jeong@uber.com), Uber, [CausalML](https://github.com/uber/causalml) - main contact
+* Zhenyu Zhao, Tencent, [CausalML](https://github.com/uber/causalml)
+* Fabio Vera, Microsoft Research, [EconML](https://github.com/py-why/EconML)
+* Eleanor Dillon, Microsoft Research, [EconML](https://github.com/py-why/EconML)
+* Keith Battocchi, Microsoft Research, [EconML](https://github.com/py-why/EconML)
