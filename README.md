@@ -16,8 +16,8 @@ image: images/logo.png
 
 * Long Beach Convention & Entertainment Center, 300 E Ocean Blvd, Long Beach, CA 90802
 ([Map](https://goo.gl/maps/1N3XGEovGgJqXAV98))
-* Date: August 7, 2023
-* Time: TBD
+* Date: August 7, 2023 (Monday)
+* Time: TBD (PM)
 
 ## **Abstract**
 
@@ -48,16 +48,16 @@ submission guidelines.
 
 | **Title** | **Speaker** | **Duration** | Link |
 |-----------|-------------|--------------|------|
-| Introduction | Organizers | 10 minutes | |
-| Invited Talk: COG: Creative Optimality Gap for Video Advertising | [Raif Rustamov](#raif-rustamov-amazon) | 20 minutes | |
-| Invited Talk: The Value of Last-Mile Delivery in Online Retail | [Ruomeng Cui](#ruomeng-cui-emory-universityamazon) | 20 minutes | |
+| **Introduction** | Organizers | 10 minutes | |
+| **Invited Talk:** COG: Creative Optimality Gap for Video Advertising | [Raif Rustamov](#raif-rustamov-amazon) | 20 minutes | |
+| **Invited Talk:** The Value of Last-Mile Delivery in Online Retail | [Ruomeng Cui](#ruomeng-cui-emory-universityamazon) | 20 minutes | |
 | Leveraging Causal Uplift Modeling for Budget Constrained Benefits Allocation | Dmitri Goldenberg, Javier Albert (Booking.com) | 15 minutes | |
 | Ensemble Method for Estimating Individualized Treatment Effects | Kevin Wu Han, Han Wu (Stanford) | 15 minutes | |
 | A Scalable and Debiased Approach to Dynamic Pricing with Causal Machine Learning and Optimization | Nicolò Cosimo Albanese, Fabian Furrer, Marco Guerriero (Amazon AWS) | 15 minutes | |
 | An IPW-based Unbiased Ranking Metric in Two-sided Markets | Keisho Oh, Naoki Nishimura (Recruit Co), Minje Sung, Ken Kobayashi, Kazuhide Nakata (Tokyo Institute of Technology) | 15 minutes | |
-| Break & Poster Session | | 30 minutes | |
-| Invited Talk #3 | [Ang Li](#ang-li-university-of-california-los-angeles) | 20 minutes | |
-| Invited Talk: Towards Automating the Causal Machine Learning Pipeline | [Vasilis Syrgkanis](#vasilis-syrgkanis-stanford-universityeconml) | 20 minutes | |
+| **Break & Poster Session** | | 30 minutes | |
+| **Invited Talk:** | [Ang Li](#ang-li-university-of-california-los-angeles) | 20 minutes | |
+| **Invited Talk:** Towards Automating the Causal Machine Learning Pipeline | [Vasilis Syrgkanis](#vasilis-syrgkanis-stanford-universityeconml) | 20 minutes | |
 | Power and Pre-treatment Fit: Optimizing Synthetic Control Method for Quasi-experiments | Ali O Polat (Shipt) | 15 minutes | |
 | Dynamic Causal Structure Discovery and Causal Effect Estimation | Jianian Wang, Rui Song (NCSU) | 15 minutes | |
 | Hierarchical Clustering As a Novel Solution to the Notorious Multicollinearity Problem in Observational Causal Inference | Yufei Wu, Zhiying Gu, Alex Deng, Jacob Zhu (Airbnb) | 15 minutes | |
