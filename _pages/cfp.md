@@ -13,8 +13,8 @@ All deadlines are at 11:59 PM [AoE](https://www.timeanddate.com/time/zones/aoe).
 * ~~April 30th, 2023: CMT submission portal opens~~
 * ~~May 23rd, 2023 **May 30th, 2023**: Abstract submission deadline **(extended)**~~
 * ~~June 9th, 2023 **June 16th, 2023**: Workshop paper submission deadline **(extended)**~~
-* July 10th, 2023: Paper decision notifications
-* July 24th, 2023: Camera-ready deadline
+* ~~July 10th, 2023: Paper decision notifications~~
+* ~~July 24th, 2023: Camera-ready deadline~~
 * August 7th, 2023: Workshop
 
 ## **Submission Link**
