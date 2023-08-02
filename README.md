@@ -56,7 +56,7 @@ submission guidelines.
 | A Scalable and Debiased Approach to Dynamic Pricing with Causal Machine Learning and Optimization | Nicolò Cosimo Albanese, Fabian Furrer, Marco Guerriero (Amazon AWS) | 15 minutes | |
 | An IPW-based Unbiased Ranking Metric in Two-sided Markets | Keisho Oh, Naoki Nishimura (Recruit Co), Minje Sung, Ken Kobayashi, Kazuhide Nakata (Tokyo Institute of Technology) | 15 minutes | |
 | **Break & Poster Session** | | 30 minutes | |
-| **Invited Talk:** | [Ang Li](#ang-li-university-of-california-los-angeles) | 20 minutes | |
+| **Invited Talk:** Unit Selection Based on Counterfactual Logic | [Ang Li](#ang-li-university-of-california-los-angeles) | 20 minutes | |
 | **Invited Talk:** Towards Automating the Causal Machine Learning Pipeline | [Vasilis Syrgkanis](#vasilis-syrgkanis-stanford-universityeconml) | 20 minutes | |
 | Power and Pre-treatment Fit: Optimizing Synthetic Control Method for Quasi-experiments | Ali O Polat (Shipt) | 15 minutes | |
 | Dynamic Causal Structure Discovery and Causal Effect Estimation | Jianian Wang, Rui Song (NCSU) | 15 minutes | |
@@ -108,7 +108,7 @@ delivery and tailor their logistic strategies accordingly.
 
 ### Ang Li, University of California, Los Angeles
 
-#### Title: 
+#### Title: Unit Selection Based on Counterfactual Logic
 
 #### Bio
 
