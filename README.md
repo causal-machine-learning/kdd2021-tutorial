@@ -49,15 +49,15 @@ submission guidelines.
 | **Title** | **Speaker** | **Time (Duration)** | Link |
 |-----------|-------------|--------------|------|
 | **Introduction** | Organizers | 1:00 - 1:10 PM (10 minutes) | |
-| **Invited Talk:** COG: Creative Optimality Gap for Video Advertising | [Raif Rustamov](#raif-rustamov-amazon) | 1:10 - 1:30 PM (20 minutes) | |
-| **Invited Talk:** The Value of Last-Mile Delivery in Online Retail | [Ruomeng Cui](#ruomeng-cui-emory-university) | 1:30 - 1:50 PM (20 minutes) | |
+| **Invited Talk:** COG: Creative Optimality Gap for Video Advertising | [Raif Rustamov](#raif-rustamov-amazon) (Amazon) | 1:10 - 1:30 PM (20 minutes) | |
+| **Invited Talk:** The Value of Last-Mile Delivery in Online Retail | [Ruomeng Cui](#ruomeng-cui-emory-university) (Emory) | 1:30 - 1:50 PM (20 minutes) | |
 | Leveraging Causal Uplift Modeling for Budget Constrained Benefits Allocation | Dmitri Goldenberg, Javier Albert (Booking.com) | 1:50 - 2:05 PM (15 minutes) | |
 | Ensemble Method for Estimating Individualized Treatment Effects | Kevin Wu Han, Han Wu (Stanford) | 2:05 - 2:20 PM (15 minutes) | |
 | A Scalable and Debiased Approach to Dynamic Pricing with Causal Machine Learning and Optimization | Nicolò Cosimo Albanese, Fabian Furrer, Marco Guerriero (Amazon AWS) | 2:20 - 2:35 PM (15 minutes) | |
 | An IPW-based Unbiased Ranking Metric in Two-sided Markets | Keisho Oh, Naoki Nishimura (Recruit Co), Minje Sung, Ken Kobayashi, Kazuhide Nakata (Tokyo Institute of Technology) | 2:35 - 2:50 PM (15 minutes) | |
 | **Break & Poster Session** | | 3:00 - 3:30 PM (30 minutes) | |
-| **Invited Talk:** Unit Selection Based on Counterfactual Logic | [Ang Li](#ang-li-university-of-california-los-angeles) | 3:30 - 3:50 PM (20 minutes) | |
-| **Invited Talk:** Towards Automating the Causal Machine Learning Pipeline | [Vasilis Syrgkanis](#vasilis-syrgkanis-stanford-universityeconml) | 3:50 - 4:10 PM (20 minutes) | |
+| **Invited Talk:** Unit Selection Based on Counterfactual Logic | [Ang Li](#ang-li-university-of-california-los-angeles) (UCLA) | 3:30 - 3:50 PM (20 minutes) | |
+| **Invited Talk:** Towards Automating the Causal Machine Learning Pipeline | [Vasilis Syrgkanis](#vasilis-syrgkanis-stanford-universityeconml) (Stanford/EconML) | 3:50 - 4:10 PM (20 minutes) | |
 | Power and Pre-treatment Fit: Optimizing Synthetic Control Method for Quasi-experiments | Ali O Polat (Shipt) | 4:10 - 4:25 PM (15 minutes) | |
 | Dynamic Causal Structure Discovery and Causal Effect Estimation | Jianian Wang, Rui Song (NCSU) | 4:25 - 4:40 PM (15 minutes) | |
 | Hierarchical Clustering As a Novel Solution to the Notorious Multicollinearity Problem in Observational Causal Inference | Yufei Wu, Zhiying Gu, Alex Deng, Jacob Zhu (Airbnb) | 4:40 - 4:55 PM (15 minutes) | |
