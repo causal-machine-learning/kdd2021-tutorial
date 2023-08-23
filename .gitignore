@@ -11,4 +11,5 @@ _notebooks/.ipynb_checkpoints
 # Local Netlify folder
 .netlify
 .tweet-cache
+.DS_Store
 __pycache__

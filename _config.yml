@@ -6,11 +6,11 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: EconML/CausalML KDD 2021 Tutorial
-description: EconML/CausalML KDD 2021 Tutorial
+title: KDD 2023 Workshop - Causal Inference and Machine Learning in Practice
+description: KDD 2023 Workshop - Causal Inference and Machine Learning in Practice
 github_username: causal-machine-learning
 # you can comment the below line out if your repo name is not different than your baseurl
-github_repo: "kdd2021-tutorial"
+github_repo: "kdd2023-workshop"
 
 # OPTIONAL: override baseurl and url if using a custom domain
 # Note: leave out the trailing / from this value. 
@@ -34,13 +34,13 @@ url: "https://causal-machine-learning.github.io" # the base hostname & protocol 
 #
 # 3. You must replace the parameter `baseurl` in _action_files/settings.ini with the same value as you set here but WITHOUT QUOTES.
 #
-baseurl: "/kdd2021-tutorial" # the subpath of your site, e.g. "/blog".
+baseurl: "/kdd2023-workshop" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter: CausalMachine
-    github: causal-machine-learning
+    - { platform: github, user_url: "https://github.com/causal-machine-learning/" }
+    - { platform: twitter, user_url: "https://twitter.com/CausalMachine" }
 
 # Set this to true to get LaTeX math equation support
 use_math: true
@@ -100,7 +100,7 @@ plugins:
 paginate: 15
 paginate_path: /page:num/
 
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@6513ea8b9c1c4909b6aa79926d52a1f7d865c5e7
 
 titles_from_headings:
   enabled:     true
