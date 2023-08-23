@@ -49,18 +49,18 @@ submission guidelines.
 | **Title** | **Speaker** | **Time (Duration)** | Link |
 |-----------|-------------|--------------|------|
 | **Introduction** | Organizers | 1:00 - 1:10 PM (10 minutes) | |
-| **Invited Talk:** COG: Creative Optimality Gap for Video Advertising | [Raif Rustamov](#raif-rustamov-amazon) (Amazon) | 1:10 - 1:30 PM (20 minutes) | |
-| **Invited Talk:** The Value of Last-Mile Delivery in Online Retail | [Ruomeng Cui](#ruomeng-cui-emory-university) (Emory) | 1:30 - 1:50 PM (20 minutes) | |
-| Leveraging Causal Uplift Modeling for Budget Constrained Benefits Allocation | Dmitri Goldenberg, Javier Albert (Booking.com) | 1:50 - 2:05 PM (15 minutes) | |
-| Ensemble Method for Estimating Individualized Treatment Effects | Kevin Wu Han, Han Wu (Stanford) | 2:05 - 2:20 PM (15 minutes) | |
-| A Scalable and Debiased Approach to Dynamic Pricing with Causal Machine Learning and Optimization | Nicolò Cosimo Albanese, Fabian Furrer, Marco Guerriero (Amazon AWS) | 2:20 - 2:35 PM (15 minutes) | |
-| An IPW-based Unbiased Ranking Metric in Two-sided Markets | Keisho Oh, Naoki Nishimura (Recruit Co), Minje Sung, Ken Kobayashi, Kazuhide Nakata (Tokyo Institute of Technology) | 2:35 - 2:50 PM (15 minutes) | |
+| **Invited Talk:** COG: Creative Optimality Gap for Video Advertising | [Raif Rustamov](#raif-rustamov-amazon) (Amazon) | 1:10 - 1:30 PM (20 minutes) | [Slides](https://drive.google.com/file/d/1ehHzNj-EDlhpQzCOhlJ9oE7Lnmf2Fpmc/view?usp=sharing)|
+| **Invited Talk:** The Value of Last-Mile Delivery in Online Retail | [Ruomeng Cui](#ruomeng-cui-emory-university) (Emory) | 1:30 - 1:50 PM (20 minutes) | [Slides](https://drive.google.com/file/d/19w3ay80K1xBqceZj6DgBtyJgPx2OrYe6/view?usp=drive_link)|
+| Leveraging Causal Uplift Modeling for Budget Constrained Benefits Allocation | Dmitri Goldenberg, Javier Albert (Booking.com) | 1:50 - 2:05 PM (15 minutes) | [Slides](https://docs.google.com/presentation/d/1Fz720lBj8DDsviLYNAIyBLVE7TN8qFoVtxPzbfAvo_I/edit?usp=drive_link)|
+| Ensemble Method for Estimating Individualized Treatment Effects | Kevin Wu Han, Han Wu (Stanford) | 2:05 - 2:20 PM (15 minutes) | [Slides](https://drive.google.com/file/d/1KLAFpKYw5mlJQ7cNyLamS1LkuGScABSb/view?usp=sharing), [Paper](https://drive.google.com/file/d/1dzsIGgQ4cF2ltetH16A4Zz-L-pZ6tHBK/view?usp=drive_link)  |
+| A Scalable and Debiased Approach to Dynamic Pricing with Causal Machine Learning and Optimization | Nicolò Cosimo Albanese, Fabian Furrer, Marco Guerriero (Amazon AWS) | 2:20 - 2:35 PM (15 minutes) | [Slides](https://drive.google.com/file/d/1uSqpV51qxNcEyCrgzhYo2nr44tfn717z/view?usp=drive_link), [Paper](https://drive.google.com/file/d/1VlW-zgrCfaKi5CtGYkQbkhWw7JVXhPtw/view?usp=drive_link) |
+| An IPW-based Unbiased Ranking Metric in Two-sided Markets | Keisho Oh, Naoki Nishimura (Recruit Co), Minje Sung, Ken Kobayashi, Kazuhide Nakata (Tokyo Institute of Technology) | 2:35 - 2:50 PM (15 minutes) | [Slides](https://drive.google.com/file/d/1XLQCMUNy79jmYb0y1AB7ImRflq4csh6Y/view?usp=drive_link), [Paper](https://drive.google.com/file/d/1Bshr6dwFB-E2H2K64g9OfERNUQcfP0eb/view?usp=drive_link)|
 | **Break & Poster Session** | | 3:00 - 3:30 PM (30 minutes) | |
-| **Invited Talk:** Unit Selection Based on Counterfactual Logic | [Ang Li](#ang-li-university-of-california-los-angeles) (UCLA) | 3:30 - 3:50 PM (20 minutes) | |
-| **Invited Talk:** Towards Automating the Causal Machine Learning Pipeline | [Vasilis Syrgkanis](#vasilis-syrgkanis-stanford-universityeconml) (Stanford/EconML) | 3:50 - 4:10 PM (20 minutes) | |
-| Power and Pre-treatment Fit: Optimizing Synthetic Control Method for Quasi-experiments | Ali O Polat (Shipt) | 4:10 - 4:25 PM (15 minutes) | |
-| Dynamic Causal Structure Discovery and Causal Effect Estimation | Jianian Wang, Rui Song (NCSU) | 4:25 - 4:40 PM (15 minutes) | |
-| Hierarchical Clustering As a Novel Solution to the Notorious Multicollinearity Problem in Observational Causal Inference | Yufei Wu, Zhiying Gu, Alex Deng, Jacob Zhu (Airbnb) | 4:40 - 4:55 PM (15 minutes) | |
+| **Invited Talk:** Unit Selection Based on Counterfactual Logic | [Ang Li](#ang-li-university-of-california-los-angeles) (UCLA) | 3:30 - 3:50 PM (20 minutes) | [Slides](https://drive.google.com/file/d/1P-it4MNrYbnWNUgodagU69oubVtpo_WV/view?usp=drive_link)|
+| **Invited Talk:** Towards Automating the Causal Machine Learning Pipeline | [Vasilis Syrgkanis](#vasilis-syrgkanis-stanford-universityeconml) (Stanford/EconML) | 3:50 - 4:10 PM (20 minutes) | [Slides](https://www.dropbox.com/scl/fi/w2p1cnghhqp1qc377o4yu/auto_debiased.pptx?rlkey=8k4bdcrastqmzlao8n5bng258&dl=0)|
+| Power and Pre-treatment Fit: Optimizing Synthetic Control Method for Quasi-experiments | Ali O Polat (Shipt) | 4:10 - 4:25 PM (15 minutes) | [Slides](https://drive.google.com/file/d/1F9bCmoCYg7AeNxKXekCze7a4ELXs2Ohv/view?usp=drive_link), [Paper](https://drive.google.com/file/d/1rDsCmwl23HELiD-P_Qq9TUZZ_3opbEji/view?usp=drive_link)|
+| Dynamic Causal Structure Discovery and Causal Effect Estimation | Jianian Wang, Rui Song (NCSU) | 4:25 - 4:40 PM (15 minutes) | [Slides](https://drive.google.com/file/d/13MzjyZLGxfGNoAg3TMRF0Es-TqtnRVSH/view?usp=drive_link), [Paper](https://drive.google.com/file/d/1928QcX3PdFan_gkeJl-mxEgl7kQ9KupN/view?usp=drive_link)|
+| Hierarchical Clustering As a Novel Solution to the Notorious Multicollinearity Problem in Observational Causal Inference | Yufei Wu, Zhiying Gu, Alex Deng, Jacob Zhu (Airbnb) | 4:40 - 4:55 PM (15 minutes) | [Slides](https://drive.google.com/file/d/1r0xXFFflSVDFNtGEypUGh845CeycF51q/view?usp=drive_link), [Paper](https://drive.google.com/file/d/1HQekrFF1vNNrO7TF4aX43850-Dc6UHgo/view?usp=drive_link)|
 
 ## **Invited Speakers**
 
@@ -153,21 +153,20 @@ received his Ph.D. in Computer Science from Cornell University.
 ## **Accepted Papers**
 
 ### For Oral Presentation
-1. Leveraging Causal Uplift Modeling for Budget Constrained Benefits Allocation, Dmitri Goldenberg (Booking.com)*; Javier Albert (Booking.com)
-2. Ensemble Method for Estimating Individualized Treatment Effects, Kevin Wu Han (Stanford University)*; Han Wu (Stanford University)
-3. A Scalable and Debiased Approach to Dynamic Pricing with Causal Machine Learning and Optimization, Nicolò Cosimo Albanese (AWS)*; Fabian Furrer (AWS); Marco Guerriero (AWS)
-4. An IPW-based Unbiased Ranking Metric in Two-sided Markets, Keisho Oh (Recruit Co., Ltd.)*; Naoki Nishimura (Recruit Co., Ltd.); Minje Sung (Tokyo Institute of Technology); Ken Kobayashi (Tokyo Institute of Technology); Kazuhide Nakata (Department of Industrial Engineering and Economics, Tokyo Institute of Technology.)
-5. Power and Pre-treatment Fit: Optimizing Synthetic Control Method for Quasi-experiments, Ali O Polat (Shipt Inc.)*
-6. Dynamic Causal Structure Discovery and Causal Effect Estimation, Jianian Wang (North Carolina State Unicersity)*; Rui Song (North Carolina State Unicersity)
-7. Hierarchical Clustering As a Novel Solution to the Notorious Multicollinearity Problem in Observational Causal Inference, Yufei Wu (Airbnb)*; Zhiying Gu (Airbnb); Alex Deng (Airbnb); Jacob Zhu (Airbnb)
+1. Leveraging Causal Uplift Modeling for Budget Constrained Benefits Allocation, Dmitri Goldenberg (Booking.com)*; Javier Albert (Booking.com); [Slides](https://docs.google.com/presentation/d/1Fz720lBj8DDsviLYNAIyBLVE7TN8qFoVtxPzbfAvo_I/edit?usp=drive_link)
+2. Ensemble Method for Estimating Individualized Treatment Effects, Kevin Wu Han (Stanford University)*; Han Wu (Stanford University); [Slides](https://drive.google.com/file/d/1KLAFpKYw5mlJQ7cNyLamS1LkuGScABSb/view?usp=sharing), [Paper](https://drive.google.com/file/d/1dzsIGgQ4cF2ltetH16A4Zz-L-pZ6tHBK/view?usp=drive_link)
+3. A Scalable and Debiased Approach to Dynamic Pricing with Causal Machine Learning and Optimization, Nicolò Cosimo Albanese (AWS)*; Fabian Furrer (AWS); Marco Guerriero (AWS); [Slides](https://drive.google.com/file/d/1uSqpV51qxNcEyCrgzhYo2nr44tfn717z/view?usp=drive_link), [Paper](https://drive.google.com/file/d/1VlW-zgrCfaKi5CtGYkQbkhWw7JVXhPtw/view?usp=drive_link)
+4. An IPW-based Unbiased Ranking Metric in Two-sided Markets, Keisho Oh (Recruit Co., Ltd.)*; Naoki Nishimura (Recruit Co., Ltd.); Minje Sung (Tokyo Institute of Technology); Ken Kobayashi (Tokyo Institute of Technology); Kazuhide Nakata (Department of Industrial Engineering and Economics, Tokyo Institute of Technology.); [Slides](https://drive.google.com/file/d/1XLQCMUNy79jmYb0y1AB7ImRflq4csh6Y/view?usp=drive_link), [Paper](https://drive.google.com/file/d/1Bshr6dwFB-E2H2K64g9OfERNUQcfP0eb/view?usp=drive_link)
+5. Power and Pre-treatment Fit: Optimizing Synthetic Control Method for Quasi-experiments, Ali O Polat (Shipt Inc.)*; [Slides](https://drive.google.com/file/d/1F9bCmoCYg7AeNxKXekCze7a4ELXs2Ohv/view?usp=drive_link), [Paper](https://drive.google.com/file/d/1rDsCmwl23HELiD-P_Qq9TUZZ_3opbEji/view?usp=drive_link)
+6. Dynamic Causal Structure Discovery and Causal Effect Estimation, Jianian Wang (North Carolina State Unicersity)*; Rui Song (North Carolina State Unicersity); [Slides](https://drive.google.com/file/d/13MzjyZLGxfGNoAg3TMRF0Es-TqtnRVSH/view?usp=drive_link), [Paper](https://drive.google.com/file/d/1928QcX3PdFan_gkeJl-mxEgl7kQ9KupN/view?usp=drive_link)
+7. Hierarchical Clustering As a Novel Solution to the Notorious Multicollinearity Problem in Observational Causal Inference, Yufei Wu (Airbnb)*; Zhiying Gu (Airbnb); Alex Deng (Airbnb); Jacob Zhu (Airbnb); [Slides](https://drive.google.com/file/d/1r0xXFFflSVDFNtGEypUGh845CeycF51q/view?usp=drive_link), [Paper](https://drive.google.com/file/d/1HQekrFF1vNNrO7TF4aX43850-Dc6UHgo/view?usp=drive_link)
 
 ### For Poster Presentation
-8. Community Detection-Enhanced Causal Structural Learning, Yuhe Gao (North Carolina State University)*; Hengrui Cai (University of California Irvine); Sheng Zhang (North Carolina State University); Rui Song (North Carolina State University)
-9. ACE: Active Learning for Causal Inference with Expensive Experiments, Difan Song (Georgia Institute of Technology)*; Simon Mak (Duke University); C.F. Jeff Wu (Georgia Institute of Technology)
-10. Extracting Causal Insights from Microsoft Feedback Hub using LLMs and In-context Learning, Sara Abdali (University of California, Riverside )*; Anjali Parikh (Microsoft); Steve Lim (Microsoft)
-11. Evaluate the Impact of Similar Products Ad Group Recommendations with Causal Inference, Jamie Chen (Amazon)*; Zuqi Shang (AmaOn); Raif Rustamov (Amazon)
-12. Machine Learning based Framework for Robust Price-Sensitivity Estimation with Application to Airline Pricing, Shahin Boluki (Pros Inc)*; Ravi Kumar (PROS)
-13. OpportunityFinder: A Framework for Automated Causal Inference, Huy Nguyen (Amazon)*; Prince Grover (Amazon); Devashish Khatwani (Amazon)
+8. Community Detection-Enhanced Causal Structural Learning, Yuhe Gao (North Carolina State University)*; Hengrui Cai (University of California Irvine); Sheng Zhang (North Carolina State University); Rui Song (North Carolina State University); [Poster](https://drive.google.com/file/d/1dC_WLUhOJletn-kDJd1GPUJDyHwpMblG/view?usp=drive_link), [Paper](https://drive.google.com/file/d/11vnSFYDQZ1ZjztaM_eW7J9jd5tKH7y6Y/view?usp=drive_link)
+9. ACE: Active Learning for Causal Inference with Expensive Experiments, Difan Song (Georgia Institute of Technology)*; Simon Mak (Duke University); C.F. Jeff Wu (Georgia Institute of Technology); [Paper](https://drive.google.com/file/d/1-fCLcT4RYAHJlsSBUuuAwsuqHDf9B4Qt/view?usp=drive_link)
+10. Evaluate the Impact of Similar Products Ad Group Recommendations with Causal Inference, Jamie Chen (Amazon)*; Zuqi Shang (AmaOn); Raif Rustamov (Amazon); [Poster](https://drive.google.com/file/d/13UTLTuJKBA5hIFZ0g1HolLHQpAXhqcX4/view?usp=drive_link), [Paper](https://drive.google.com/file/d/1ahjN_fNvDjmdwD0btW4UvgxaKgCB32kP/view?usp=drive_link)
+11. Machine Learning based Framework for Robust Price-Sensitivity Estimation with Application to Airline Pricing, Shahin Boluki (Pros Inc)*; Ravi Kumar (PROS); [Poster](https://drive.google.com/file/d/1AcRtI5NtovYWMEOLnQ7dE_IRgyHVukqf/view?usp=drive_link), [Paper](https://drive.google.com/file/d/1n5mL1quGS5jWVZXXqUrL349CJH-I2BOW/view?usp=drive_link)
+12. OpportunityFinder: A Framework for Automated Causal Inference, Huy Nguyen (Amazon)*; Prince Grover (Amazon); Devashish Khatwani (Amazon); [Poster](https://drive.google.com/file/d/1MH_vV5MDafqAOVLnQRIgmG1IFGXZx05r/view?usp=drive_link), [Paper](https://drive.google.com/file/d/1_yAoohM0jG0uPi7om9_6igVQJI1JM-Ce/view?usp=drive_link)
 
 
 ## **Organizers**
